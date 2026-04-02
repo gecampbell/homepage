@@ -2,7 +2,7 @@
 
 if [ -f index.html ]; then
   echo "Synchronizing..."
-  aws s3 sync . s3://xn--hwt-zla.com \
+  aws s3 sync . s3://glen-campbell.com \
     --exclude '*.*' \
     --include '*.css' \
     --include '*.html' \
