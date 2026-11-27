@@ -19,7 +19,7 @@ position: sticky;
 bottom: 0;
 }
 ol#headlines-container {
-list-style-type: none;
+list-style-type: disc;
 margin: 0 0 5em 0;
 padding: 0;
 }
